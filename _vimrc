@@ -11,6 +11,10 @@ source $VIMRUNTIME/mswin.vim
 behave mswin
 colors evening
 
+" enter command mode without using shift key
+nnoremap ; :
+nnoremap : ;
+
 set diffexpr=MyDiff()
 function MyDiff()
   let opt = '-a --binary '
