@@ -2,6 +2,8 @@
 	name = Jon Fuller
 	email = fullerjc@gmail.com
 [core]
-	editor = gvim.exe
-[diff]
-	external = c:/Users/jcfuller/git-diff-wrapper.sh
+	editor = mvim
+[color]
+	diff = auto
+	status = auto
+	branch = auto
