@@ -5,6 +5,7 @@ set backupdir=~/.vimbackup
 set directory=~/.vimswap
 set tabstop=2
 set shiftwidth=2	
+set expandtab
 set guioptions-=T  " hide the toolbar
 source $VIMRUNTIME/vimrc_example.vim
 source $VIMRUNTIME/mswin.vim
