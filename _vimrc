@@ -3,17 +3,16 @@ set guifont=Consolas:h12:cANSI
 set nu
 set backupdir=$VIM/.vimbackup
 set directory=$VIM/.vimswap
+"
+" set tabs to 2 spaces, and expand tabs to spaces
 set tabstop=2
 set shiftwidth=2	
+set expandtab
 set guioptions-=T  " hide the toolbar
 source $VIMRUNTIME/vimrc_example.vim
 source $VIMRUNTIME/mswin.vim
 behave mswin
-colors evening
-
-" enter command mode without using shift key
-nnoremap ; :
-nnoremap : ;
+colors ir_black
 
 set diffexpr=MyDiff()
 function MyDiff()
