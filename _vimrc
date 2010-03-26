@@ -14,6 +14,12 @@ source $VIMRUNTIME/mswin.vim
 behave mswin
 colors ir_black
 
+" make Ctrl+[hjkl] change windows
+map <C-h> <C-w>h
+map <C-j> <C-w>j
+map <C-k> <C-w>k
+map <C-l> <C-w>l
+
 set diffexpr=MyDiff()
 function MyDiff()
   let opt = '-a --binary '
