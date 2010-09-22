@@ -16,3 +16,5 @@ alias ...='../..'
 alias ....='../../..'
 alias -- -='cd -'
 
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"
+
