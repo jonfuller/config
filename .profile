@@ -16,5 +16,10 @@ alias ...='../..'
 alias ....='../../..'
 alias -- -='cd -'
 
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"
+# git aliases
+alias gst='git status'
+alias gai='git add -i'
+alias gap='git add -p'
+alias gcm='git commit -m'
 
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"
