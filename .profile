@@ -22,4 +22,8 @@ alias gai='git add -i'
 alias gap='git add -p'
 alias gcm='git commit -m'
 
+# bash prompt (git)
+[[ -s $HOME/.bash_prompt ]] && source $HOME/.bash_prompt
+
+# rvm functions
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"
