@@ -47,7 +47,7 @@ function prompt_func() {
     else
         RVM=" \$(~/.rvm/bin/rvm-prompt v g | cut -c 5-8)"
     fi
-    prompt="${TITLEBAR}${BOLD}${DATE}]${NORMAL}${CYAN}\W${COLOR_NONE}${RVM}${GREEN}${G}${COLOR_NONE} "
+    prompt="${TITLEBAR}${BOLD}${DATE}]${NORMAL}${YELLOW}\u@\h${COLOR_NONE}:${CYAN}\W${COLOR_NONE}${RVM}${GREEN}${G}${COLOR_NONE} "
     if test $previous_return_value -eq 0; then
         PS1="${prompt}➔ "
     else
